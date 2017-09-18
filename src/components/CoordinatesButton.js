@@ -1,7 +1,7 @@
 import React from 'react';
 
 class CoordinatesButton extends React.Component {
-  handleClick = (this.props.onRecieveCoordinates) => {
+  handleClick = () => {
     const coords = [event.screenX, event.screenY];
     onRecieveCoordinates(coords);
   }
