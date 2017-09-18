@@ -5,10 +5,10 @@ class CoordinatesButton extends React.Component {
     const coords = {X: event.xcoord, Y: event.ycoord};
     this.props.onRecieveCoordinates(coords);
   }
-  
+
   render() {
     return (
-      <button onClick={}
+      <button onClick={handleClick()}> </button>
     )
   }
 }
