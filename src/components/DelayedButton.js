@@ -4,7 +4,7 @@ class DelayedButton extends React.Component {
   handleClick = (onRecieveCoordinates) => {
     return (
       <p>hello!</p>
-    )
+    );
   }
 
   render() {
