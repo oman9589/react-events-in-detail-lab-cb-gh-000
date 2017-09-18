@@ -6,7 +6,7 @@ class CoordinatesButton extends React.Component {
 
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick = () => {
+  handleClick(event) {
     this.props.onRecieveCoordinates([event.clientX, event.clientY]);
   }
 
